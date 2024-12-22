@@ -1,0 +1,41 @@
+{
+  "name": "reactassignment",
+  "version": "1.0.0",
+  "description": "Simple Hello World! Program using React",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+
+    "start": "parcel helloworld.html", 
+
+    "build": "parcel build helloworld.html"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamgopaldev/react-assignment1.git"
+  },
+  "keywords": [
+    "React",
+    "Hello",
+    "World!",
+    "Program"
+  ],
+  "author": "Gopal!",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamgopaldev/react-assignment1/issues"
+  },
+  "homepage": "https://github.com/iamgopaldev/react-assignment1#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+   
+  "browserslist": ["last 2 versions", "> 0.2%", "not dead"] 
+
+}

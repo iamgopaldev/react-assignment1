@@ -5,6 +5,7 @@ import ReactDOM from "react-dom/client";
 
 const NestedElement = function () {
   return <>
+    <h1></h1>
     <h2>Using JSX</h2>
     <p>React is a JavaScript library for building user interfaces</p>
   </>
